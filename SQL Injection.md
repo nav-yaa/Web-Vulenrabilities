@@ -46,3 +46,11 @@ Why is SQLi dangerous?
 
 ## Parameterized vs Non-Parameterized Queries
 Data passed as separate argument in parameterized whereas in non-parameterized the Input is directly concatenated into query.
+
+
+## Mitigation for SQL Injection
+1. Use Parameterized Queries
+2. Input Validation/ Proper Input Sanitization
+3. Use Web Application Firewall (WAF)
+4. Disable detailed SQL error messages
+5. If parameterization isn't possible, escape special characters.
