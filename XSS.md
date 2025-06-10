@@ -69,7 +69,15 @@ Recommendation: Proper output encoding and input validation
 CSP (Content Security Policy) is a browser feature that helps mitigate XSS by restricting the sources from which scripts can be loaded. For example, it can block inline scripts or scripts from unknown domains.
 
 
-Some Terms :
+# Some Terms :
 1. Session Stealing - Steal cookies from autheticated sessions and gain login tokens allowing them to login as victims.
 2. Keyloggers - Logs everything you type and send your keystrokes to their server.(like login credentials or banking info)
+
+# How would you test a web application if it's using a WAF (Web Application Firewall)?
+Use obfuscation
+Use alternate tags
+Encode payloads (URL, HTML, Base64).
+WAFs don’t see client-side JS, so focus on that to bypass(for DOM-based XSS)
+
+
 
