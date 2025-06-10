@@ -56,7 +56,7 @@ Use frameworks that auto-escape output (e.g., React, Angular).
 3. Google Blogspot XSS (2015) XSS via comment section let attackers run JavaScript on Blogspot blogs. Impact: Site defacements and potential user data theft; Google patched it fast.
 
 
-# . How would you report an XSS finding to a client?
+# How would you report an XSS finding to a client?
 Title: Reflected XSS in search parameter
 Severity: High
 Description: User-supplied input in the search parameter is reflected without sanitization, allowing execution of malicious scripts.
